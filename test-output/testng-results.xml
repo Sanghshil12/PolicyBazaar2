@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser.]]>
+    </line>
+    <line>
+      <![CDATA[clicking on home page signInButton]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[reading data moNumfrom propertyFile]]>
+    </line>
+    <line>
+      <![CDATA[entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signInWithPassword]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[reading data pswdfrom propertyFile]]>
+    </line>
+    <line>
+      <![CDATA[entring password]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signInButton]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[clicking on myAccount Button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[clicking on myProfile Button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Switching to childpage.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Test validateUserName execution started.]]>
+    </line>
+    <line>
+      <![CDATA[reading data UNfrom propertyFile]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Getting actualUserName.]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShot is stored in location : D:\Software Testing\Automation\Selenium\ScreenShot\Screenshot\Sanghshil Somkuwar PB_TC2580.png]]>
+    </line>
+    <line>
+      <![CDATA[Taking Screenshot.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[This validateUserName method completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logging out.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000Milliseconds.]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-01T15:09:02 IST" name="Suite" finished-at="2023-07-01T15:09:34 IST" duration-ms="32739">
+    <groups>
+    </groups>
+    <test started-at="2023-07-01T15:09:02 IST" name="Test" finished-at="2023-07-01T15:09:34 IST" duration-ms="32739">
+      <class name="test.ValidateUserNameProperty">
+        <test-method is-config="true" signature="launchPolicyBazaar()[pri:0, instance:test.ValidateUserNameProperty@795509d9]" started-at="2023-07-01T15:09:02 IST" name="launchPolicyBazaar" finished-at="2023-07-01T15:09:11 IST" duration-ms="9562" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Launching Browser.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPolicyBazaar -->
+        <test-method is-config="true" signature="signInPolicyBazaar()[pri:0, instance:test.ValidateUserNameProperty@795509d9]" started-at="2023-07-01T15:09:11 IST" name="signInPolicyBazaar" finished-at="2023-07-01T15:09:25 IST" duration-ms="14082" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on home page signInButton]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[reading data moNumfrom propertyFile]]>
+            </line>
+            <line>
+              <![CDATA[entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[clicking on signInWithPassword]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[reading data pswdfrom propertyFile]]>
+            </line>
+            <line>
+              <![CDATA[entring password]]>
+            </line>
+            <line>
+              <![CDATA[clicking on signInButton]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[clicking on myAccount Button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[clicking on myProfile Button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Switching to childpage.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInPolicyBazaar -->
+        <test-method signature="validateUserName()[pri:0, instance:test.ValidateUserNameProperty@795509d9]" started-at="2023-07-01T15:09:25 IST" name="validateUserName" finished-at="2023-07-01T15:09:30 IST" duration-ms="4557" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test validateUserName execution started.]]>
+            </line>
+            <line>
+              <![CDATA[reading data UNfrom propertyFile]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Getting actualUserName.]]>
+            </line>
+            <line>
+              <![CDATA[ScreenShot is stored in location : D:\Software Testing\Automation\Selenium\ScreenShot\Screenshot\Sanghshil Somkuwar PB_TC2580.png]]>
+            </line>
+            <line>
+              <![CDATA[Taking Screenshot.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[This validateUserName method completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:test.ValidateUserNameProperty@795509d9]" started-at="2023-07-01T15:09:30 IST" name="logOut" finished-at="2023-07-01T15:09:30 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ValidateUserNameProperty@795509d9]" started-at="2023-07-01T15:09:30 IST" name="close" finished-at="2023-07-01T15:09:34 IST" duration-ms="4320" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000Milliseconds.]]>
+            </line>
+            <line>
+              <![CDATA[Closing Browser.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ValidateUserNameProperty -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
