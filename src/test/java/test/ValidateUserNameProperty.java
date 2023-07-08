@@ -61,9 +61,9 @@ public class ValidateUserNameProperty extends Base
 	public void validateUserName() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		String expectedUN = Utility.readDataFromPropertyFile("UN");
-		Utility.waitUse(2000);
+		Utility.waitUse(4000);
 		String actualUN = myProfile.getActualUserName();
-		
+		Utility.waitUse(2000);
 		Assert.assertEquals(actualUN, expectedUN, "Actual & Expected username are not matching, TC is failed.");
 		
 		Utility.takeScreenshot(driver, actualUN +" "+TCID);
